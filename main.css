@@ -1,0 +1,42 @@
+
+p {
+    padding-left: 20px;
+}
+
+.container {
+    width: 350px;
+}
+
+#timer {
+    margin: 30px auto;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+#timer>span {
+    font-size: 20px;
+}
+
+#btn {
+    display: flex;
+    list-style:none;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.btn-item {
+    width: 100px;
+    border: 1.5px solid #000;
+    background: #eee;
+    padding: 10px 5px;
+    border-radius: 4%;
+    text-align: center;
+    cursor: default;
+}
+
+/* 非アクティブ時のスタイリング */
+.disabled {
+    opacity: 0.2;
+    transition: 0.2s;
+    cursor: default;
+}
